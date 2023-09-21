@@ -2,8 +2,11 @@ public class HelloWorld {
 
     private String saluto;
 
-    public String toString(){
+    public HelloWorld(){
         saluto = "Ciaooo";
+    }
+
+    public String toString(){
         return saluto;
     }
 }
